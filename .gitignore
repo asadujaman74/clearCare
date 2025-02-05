@@ -1,0 +1,64 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+*.sqlite3
+*.pyo
+*.pyd
+*.pdb
+*.swp
+*~
+
+# If you are using Django with SQLite, the database file
+db.sqlite3
+
+# Django migrations
+**/migrations/*.pyc
+
+# If you are using MySQL
+*.sql
+*.sql.gz
+
+# If you are using PostgreSQL
+*.pg
+*.pg.dump
+
+
+# Ignore the 'venv' virtual environment directory
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm project files
+.idea/
+
+# VS Code project files
+.vscode/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# pytest
+.pytest_cache/
+
+# dotenv
+.env
+.env.*
+
+# macOS specific files
+.DS_Store
+
+# Docker-specific files
+docker-compose.override.yml
+*.orig
